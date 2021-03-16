@@ -581,7 +581,7 @@ async function starts() {
                                         }
                                         break
 				case 'toimg':
-					if (!isQuotedSticker) return reply('❌ responder stickernya um ❌')
+					if (!isQuotedSticker) return reply('❌ responder sticker um ❌')
 					reply(mess.wait)
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await client.downloadAndSaveMediaMessage(encmedia)
@@ -609,11 +609,11 @@ async function starts() {
 						if (isSimi) return reply('Mode simi sudah aktif')
 						samih.push(from)
 						fs.writeFileSync('./src/simi.json', JSON.stringify(samih))
-						reply('Ativar com sucesso o modo simi neste grupo ✔️')
+						reply('Ativado com sucesso o modo simi neste grupo ✔️')
 					} else if (Number(args[0]) === 0) {
 						samih.splice(from, 1)
 						fs.writeFileSync('./src/simi.json', JSON.stringify(samih))
-						reply('Desativando com sucesso o modo simi neste grupo ✔️')
+						reply('Desativado com sucesso o modo simi neste grupo ✔️')
 					} else {
 						reply('1 untuk mengaktifkan, 0 untuk menonaktifkan')
 					}
@@ -630,7 +630,7 @@ async function starts() {
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, 1)
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
-						reply('Desativando com sucesso o recurso de boas-vindas neste grupo ✔️')
+						reply('Desativado com sucesso o recurso de boas-vindas neste grupo ✔️')
 					} else {
 						reply('1 untuk mengaktifkan, 0 untuk menonaktifkan')
 					}

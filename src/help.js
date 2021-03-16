@@ -2,30 +2,30 @@ const help = (prefix) => {
 	return `> *Sticker Commands* <
 comando : *${prefix}sticker* or *${prefix}stiker*
 desc : converter imagem / gif / vídeo em adesivo
-usage : reply image/gif/video, or send image/gif/video with caption\n
+usage : responder imagem / gif / vídeo ou enviar imagem / gif / vídeo with caption\n
 command : *${prefix}sticker nobg* or *${prefix}stiker nobg*
 desc : converter imagem em adesivo removendo o fundo
-usage : reply image, or send image with caption\n
+usage : responder imagem ou enviar imagem com legenda \ n
 command : *${prefix}toimg*
 desc : converter adesivo em imagem
-usage : reply sticker\n
+usage : adesivo de resposta \ n
 command : *${prefix}tsticker* or *${prefix}tstiker*
 desc : converter texto em adesivo
 usage : *${prefix}tsticker text in here*\n
 > *Meme Commands* <
 command : *${prefix}meme*
-desc : random meme images [english]
-usage : just send the command\n
+desc : imagens aleatórias de meme [inglês]
+usage : basta enviar o comando \n
 command : *${prefix}memeindo*
 desc : imagens aleatórias de meme [indo]
-usage : just send the command\n
+usage : basta enviar o comando \ n
 > *Others Commands* <
 command : *${prefix}gtts*
 desc : converter texto em fala / áudio
 usage : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts ja On2-chan*\n
 command : *${prefix}loli*
 desc : imagens aleatórias de loli
-usage : just send the command\n
+usage : apenas envie o comando\n
 command : *${prefix}nsfwloli*
 desc : imagens aleatórias de nsfw loli
 usage : apenas envie o comando\n
@@ -49,9 +49,9 @@ note : Este comando só pode ser usado pelo proprietário do bot\n
 command : *${prefix}add*
 desc : adicionar membro ao grupo
 usage : *${prefix}add 62813xxxxx*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}kick*
-desc : kick members from group
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin! \ n
+comando : *${prefix}kick*
+desc : chutar membros do grupo
 usage : *${prefix}kick @tagmember*\n
 note : só pode ser usado quando o bot se torna administrador, e quem envia o comando é admin!\n
 command : *${prefix}promote*
